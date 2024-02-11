@@ -1,0 +1,29 @@
+<!-- Michael Ravelo -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secret Message</title>
+  <link rel="stylesheet" type="text/css">
+</head>
+<body>
+  <!-- Audio element for background sound -->
+  <audio id="backgroundSound" autoplay loop>
+    <source src="background_sound.mp3" type="audio/mpeg">
+  </audio>
+
+  <div id="container">
+    <h2>Welcome!</h2>
+    <form id="userInfoForm">
+      <input type="text" id="firstName" placeholder="First Name">
+      <input type="text" id="lastName" placeholder="Last Name">
+      <input type="text" id="zipCode" placeholder="Zip Code (5 digits)">
+      <input type="submit" value="Submit">
+    </form>
+    <p id="message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
